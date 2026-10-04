@@ -1,0 +1,4 @@
+node_modules/
+*.sql
+test/www/
+.DS_Store
