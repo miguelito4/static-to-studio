@@ -15,7 +15,7 @@ No warranty. Run `verify.mjs` before you switch routes.
 
 ## Runbook: caseyjr.org/blyg → Studio, same address
 
-The idea: Studio runs as its own Worker, reachable only on `workers.dev` while you import and verify. Then two **routes** hand `caseyjr.org/blyg*` and `caseyjr.org/api/*` to it. On Cloudflare a route takes precedence over a Custom Domain on the same hostname, so the Astro site keeps everything else.
+The idea: Studio runs as its own Worker, reachable only on `workers.dev` while you import and verify. Then three **routes** hand `caseyjr.org/blyg*` and `caseyjr.org/api/*` to it. On Cloudflare a route takes precedence over a Custom Domain on the same hostname, so the Astro site keeps everything else.
 
 ### 0. Pre-flight
 
